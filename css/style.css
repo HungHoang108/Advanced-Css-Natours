@@ -46,12 +46,14 @@ body{
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%); /*move 50% to left and same up to its current position*/ 
+    text-align: center;
 
 }
 
 .text-box-heading {
     color: white;
     text-transform: uppercase;
+    margin-bottom: 55px;
 }
 
 .text-box-heading-main {
@@ -100,4 +102,30 @@ body{
         transform: translateX(0px);
     }
 
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+}
+
+.btn-white {
+    background-color: white;
+    color: #777;
+   
 }
